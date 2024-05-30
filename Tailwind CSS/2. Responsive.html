@@ -1,0 +1,25 @@
+<!-- sm, md, lg are the screen sizes small, medium, large 
+In order to make responsive we define our code for each sizes 
+If need to change then make sure to hidden content of other sizes and the feature is block to required size -->
+<!-- <div class="md:hidden ... code ...></div>
+<div class="hidden md:block .... change...></div> -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="input.css"></script>
+    <title>Responsive</title>
+</head>
+<body>
+    <div class="md:hidden mx-0 pl-2 text-xs sm:text-sm md:text-base lg:text-xl bg-red-500 sm:bg-slate-600 md:bg-yellow-500 lg:bg-green-600  ">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. A possimus repudiandae velit incidunt enim, deleniti, facilis cupiditate qui, error ducimus id saepe at deserunt necessitatibus nesciunt non ullam? Fugiat, velit. Repudiandae asperiores accusamus cum maiores obcaecati dolor sit illum tempora?
+    </div>
+    <div class="hidden md:block mx-0 pl-2 text-xs sm:text-sm md:text-base lg:text-xl bg-red-500 sm:bg-slate-600 md:bg-yellow-500 lg:bg-green-600  ">
+       In medium screen </br>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. A possimus repudiandae velit incidunt enim, deleniti, facilis cupiditate qui, error ducimus id saepe at deserunt necessitatibus nesciunt non ullam? Fugiat, velit. Repudiandae asperiores accusamus cum maiores obcaecati dolor sit illum tempora?
+    </div>
+</body>
+</html>
