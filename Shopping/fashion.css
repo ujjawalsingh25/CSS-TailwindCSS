@@ -1,0 +1,113 @@
+body {
+    background-image: url("./shopping.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    margin: 0;
+    height: 180vh;
+}
+
+header {
+    padding: 20px 50px 30px 60px;
+    /* border: 3px solid black;  */
+    height: 70px;
+    background-image: linear-gradient(to bottom, rgb(112, 119, 121), rgb(189, 199, 200));
+    font-size: 175%;
+}
+
+header {
+    /* border: 2px solid black; */
+    padding: 20px;
+    color:rgb(239, 143, 17);
+    font-family: 'Playfair Display', serif;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+.logobox {
+    /* border: 5px solid blue; */
+    display: inline-block;
+    position: absolute;
+    left: 120px;
+    display: inline-block;
+    width: 250px;
+    font-size: xx-large;
+    font-weight: 1000;
+    padding: 5px;
+    margin: auto;
+}
+
+.logo {
+    /* border: 5px solid rgb(21, 194, 216); */
+    width: 80px;
+    height: 80px;
+    position: absolute;
+    left: 20px;
+    display: inline-block;
+    background-image: url('https://cdn-icons-png.flaticon.com/512/265/265974.png');
+    background-size: cover;
+}
+
+.navBox {
+    /* border: 5px solid green; */
+    width: 800px;
+    position: absolute;
+    right: 20px;
+    display: inline-block;
+    padding: 5px;
+}
+
+.navBox a {
+    color: rgb(249, 241, 241);
+    margin: 20px;
+    text-decoration: none;
+    transition: all 0.6s;
+    font-size: xx-large;
+}
+#home {
+    color: rgb(2, 0, 0);
+}
+.navBox a:hover {
+    color: rgb(2, 0, 0);
+}
+
+span {
+    border: 3px solid rgb(125, 125, 125);
+    border-radius: 800%;
+    background-image: linear-gradient(to bottom, rgb(79, 151, 171), rgb(22, 220, 220));
+    height: 520px;
+    width: 1000px;
+    margin: auto;
+}
+span > img {
+    display: block;
+    margin: 0 auto;
+}
+
+.kart a {
+    border: 3px solid black;
+    border-radius: 40%;
+    text-decoration: none;
+    color:black;
+    background-image: linear-gradient(to bottom, rgb(130, 136, 134), rgb(189, 190, 190));
+    margin: 5px 0px 0px 10px; 
+    padding: 5px;
+    font-size: 60%;
+    transition: all 0.5s;    
+} 
+.kart a:hover {
+    /* background-color: salmon; */
+    background-image: linear-gradient(to bottom, rgb(170, 45, 45), rgb(203, 61, 61));
+    color: white;
+}
+
+.heading {
+    color:rgb(202, 35, 35);
+    font-size: 80px;
+    width: 300px;
+    position: relative;
+    top: 40px;
+    left: 50px;
+}
+
