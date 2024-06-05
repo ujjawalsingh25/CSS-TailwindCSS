@@ -1,0 +1,15 @@
+.container {
+    border: 2px solid black;
+    height: 100px;
+    width: 800px;
+}
+.container span{
+    border: 2px solid orangered;
+    display: block;
+}
+.container div {
+    border: 2px solid blueviolet;
+    display: inline;
+    /* padding: 15px; */
+    width: 200px;
+}
