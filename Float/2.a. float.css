@@ -1,0 +1,23 @@
+body {
+    border: 2px solid black;
+}
+
+#first {
+   background-color: red; 
+   float: left;
+}
+#second {
+    clear: left; 
+    background-color: rgb(237, 143, 2); 
+    float: right;
+}
+#third {
+    clear: right;
+   background-color: rgb(199, 198, 126); 
+   float: right;
+}
+
+div {
+    width: 100px;
+    height: 100px;
+}
